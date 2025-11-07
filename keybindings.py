@@ -596,6 +596,8 @@ keyconfig_data = \
        ],
       },
      ),
+    ("mesh.select_more", {"type": 'EQUAL', "value": 'PRESS', "oskey": True}, None),
+    ("mesh.select_less", {"type": 'MINUS', "value": 'PRESS', "oskey": True}, None),
     ],
    },
   ),
